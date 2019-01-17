@@ -67,7 +67,7 @@ suite =
         , describe "Triplet.apply"
             [ test "applyes triplet to a constructor"
                 (\_ ->
-                    Expect.equal (Triplet.apply Person ( "Mahatma Gandhi", 78, False )) { name = "Mahatma Gandhi", age = 78, alive = False }
+                    Expect.equal (Triplet.applyTo Person ( "Mahatma Gandhi", 78, False )) { name = "Mahatma Gandhi", age = 78, alive = False }
                 )
             ]
         ]

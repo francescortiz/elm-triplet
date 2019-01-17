@@ -1,5 +1,5 @@
 module Triplet exposing
-    ( apply
+    ( applyTo
     , first
     , mapAll
     , mapFirst
@@ -130,9 +130,9 @@ mapAll funcA funcB funcC ( x, y, z ) =
         , alive : Bool
         }
 
-    apply Person ("Mahatma Gandhi", 78, False) == { name = "Mahatma Gandhi", age = 78, alive = False }
+    applyTo Person ("Mahatma Gandhi", 78, False) == { name = "Mahatma Gandhi", age = 78, alive = False }
 
 -}
-apply : (a -> b -> c -> t) -> ( a, b, c ) -> t
-apply func ( x, y, z ) =
+applyTo : (a -> b -> c -> t) -> ( a, b, c ) -> t
+applyTo func ( x, y, z ) =
     func x y z
