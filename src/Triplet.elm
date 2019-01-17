@@ -1,14 +1,34 @@
 module Triplet exposing
-    ( applyTo
-    , first
-    , mapAll
-    , mapFirst
-    , mapSecond
-    , mapThird
-    , second
-    , third
-    , triplet
+    ( triplet
+    , first, second, third
+    , mapFirst, mapSecond, mapThird, mapAll
+    , applyTo
     )
+
+{-| 3-tuple functions aligned with elm/core 2-tuple ones.
+
+
+# Create
+
+@docs triplet
+
+
+# Access
+
+@docs first, second, third
+
+
+# Map
+
+@docs mapFirst, mapSecond, mapThird, mapAll
+
+
+# Apply
+
+@docs applyTo
+
+-}
+
 
 {-| Create a 3-tuple.
 
@@ -18,6 +38,8 @@ module Triplet exposing
         List.map3 Triplet.triplet xs ys
 
 -}
+
+
 
 -- CREATE
 
