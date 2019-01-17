@@ -34,3 +34,5 @@ gandhiAlive =
 Since elm does not allow to have tuples with more than three elements it
 makes sense to handle the 3-tuple with specific functions like the 2-tuple is
 handled in the [elm/core](https://package.elm-lang.org/packages/elm/core/latest/Tuple) package.
+
+Check the [full docs](https://package.elm-lang.org/packages/francescortiz/triplet/latest/Triplet).
