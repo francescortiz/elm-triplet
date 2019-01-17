@@ -1,0 +1,21 @@
+{
+    "type": "package",
+    "name": "francescortiz/elm-triplet",
+    "summary": "3-tuple functions aligned with elm/core 2-tuple ones.",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "exposed-modules": {
+        "Triplet": [
+            "Triplet",
+            "String",
+            "Char",
+            "Bitwise",
+            "Tuple"
+        ]
+    },
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {},
+    "test-dependencies": {
+        "elm-explorations/test": "1.2.0 <= v < 2.0.0"
+    }
+}
