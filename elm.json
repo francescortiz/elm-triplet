@@ -4,15 +4,9 @@
     "summary": "3-tuple functions aligned with elm/core 2-tuple ones.",
     "license": "BSD-3-Clause",
     "version": "1.0.0",
-    "exposed-modules": {
-        "Triplet": [
-            "Triplet",
-            "String",
-            "Char",
-            "Bitwise",
-            "Tuple"
-        ]
-    },
+    "exposed-modules": [
+        "Triplet"
+    ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {},
     "test-dependencies": {
