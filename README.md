@@ -1,5 +1,7 @@
 # elm-triplet
 
+**WARNING: Unpublished. Use [elm-tuple-extra](https://package.elm-lang.org/packages/TSFoster/elm-tuple-extra/latest/)**
+
 3-tuple functions aligned with elm/core 2-tuple ones.
 
 ```elm
